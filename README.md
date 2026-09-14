@@ -203,16 +203,8 @@ This flow improves discovery by making products easier to find, aids conversion 
 | Wishlist | Save products for later | Improve customer retention |
 | Recently Viewed | Continue shopping easily | Reduce rediscovery friction |
 
-## 11. What Is Prototype / Demo Scope
 
-To maintain engineering honesty, please note the following prototype limitations:
-- **Payments:** Payment gateway is not integrated; checkout payment selection is a prototype.
-- **Logistics:** Pincode serviceability is a UX prototype and does not represent a live logistics API.
-- **Recommendations:** The recommendation engine is rule-based and not ML.
-- **Database:** Mock mode exists for easy local evaluation when MongoDB is unavailable.
-- **Metrics:** No claim should be made that prototype features have generated real business results, as there is no production analytics data.
-
-## 12. Setup & Installation
+## 11. Setup & Installation
 
 ### Prerequisites
 - Node.js (v18+)
@@ -251,7 +243,7 @@ npm run dev
 ```
 The frontend runs on `http://localhost:5173`. Open this URL in your browser.
 
-## 13. Environment Variables
+## 12. Environment Variables
 
 The backend accepts the following environment variables (defined in `server/.env`):
 
@@ -260,7 +252,7 @@ The backend accepts the following environment variables (defined in `server/.env
 
 No environment variables are required if you are running the project in mock mode.
 
-## 14. Running the Project
+## 13. Running the Project
 
 - **Start Backend (Dev Mode):** `npm run dev` (from `server/` directory)
 - **Start Backend (Standard):** `npm start` (from `server/` directory)
@@ -272,7 +264,7 @@ Expected local URLs:
 - Backend API: `http://localhost:5000`
 - API Health Check: `http://localhost:5000/api/health`
 
-## 15. Project Structure
+## 14. Project Structure
 
 ```text
 naik-foods-prototype/
@@ -294,7 +286,7 @@ naik-foods-prototype/
 └── README.md
 ```
 
-## 16. Testing / Verification
+## 15. Testing / Verification
 
 The following flows have been manually verified:
 - Product browsing, filtering, and sorting
@@ -305,7 +297,7 @@ The following flows have been manually verified:
 - Checkout flow and order creation
 - Mock backend mode seamless fallback
 
-## 17. Future Production Improvements
+## 16. Future Production Improvements
 
 ### Phase 1 — Production Readiness
 - Integration with a real payment gateway (e.g., Razorpay, Stripe)
@@ -324,13 +316,13 @@ The following flows have been manually verified:
 - Advanced caching and CDN/image optimization
 - Advanced machine-learning recommendation models
 
-## 18. Screenshots / Demo
+## 17. Screenshots / Demo
 
 Live Demo: [ADD DEPLOYED URL]
 GitHub: [ADD REPOSITORY URL]
 
 Add deployment screenshots here.
 
-## 19. Assignment Outcome
+## 18. Assignment Outcome
 
 This prototype demonstrates an end-to-end approach to improving an existing e-commerce product: identifying user and business opportunities, translating them into practical features, implementing them across the frontend and backend, validating data, and designing the experience around product discovery, conversion and customer convenience.
