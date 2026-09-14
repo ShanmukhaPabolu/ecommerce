@@ -316,13 +316,9 @@ The following flows have been manually verified:
 - Advanced caching and CDN/image optimization
 - Advanced machine-learning recommendation models
 
-## 17. Screenshots / Demo
-
-Live Demo: [ADD DEPLOYED URL]
-GitHub: [ADD REPOSITORY URL]
 
 Add deployment screenshots here.
 
-## 18. Assignment Outcome
+## 17. Assignment Outcome
 
 This prototype demonstrates an end-to-end approach to improving an existing e-commerce product: identifying user and business opportunities, translating them into practical features, implementing them across the frontend and backend, validating data, and designing the experience around product discovery, conversion and customer convenience.
